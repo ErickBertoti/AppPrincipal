@@ -1,4 +1,4 @@
-package com.example.sa;
+package com.example.telassa;
 
 import android.os.Bundle;
 
@@ -11,4 +11,5 @@ public class CamisasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camisas);
     }
+
 }

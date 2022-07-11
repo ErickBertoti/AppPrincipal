@@ -1,8 +1,8 @@
-package com.example.sa;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.telassa;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -11,4 +11,5 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
+
 }
