@@ -14,14 +14,26 @@
         android:theme="@style/Theme.TelasErick"
         tools:targetApi="33">
         <activity
+            android:name=".CamisasActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+       
     </application>
 
 </manifest>
